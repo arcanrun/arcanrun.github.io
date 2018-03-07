@@ -1,0 +1,431 @@
+header .wrapper {
+  background: #D52B1E;
+  color: #fff; }
+  header .wrapper h1 {
+    font-weight: bold;
+    font-size: 42px;
+    padding-top: 25px;
+    padding-bottom: 15px; }
+  header .wrapper h2 {
+    font-weight: bold;
+    padding-bottom: 30px; }
+header p {
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+header .line-3 {
+  margin: 0 auto;
+  width: 90%;
+  height: 2px;
+  background: #D52B1E;
+  margin-bottom: 50px; }
+
+.uslugi {
+  position: relative; }
+  .uslugi .row {
+    margin-bottom: 50px; }
+  .uslugi p {
+    width: 260px; }
+  .uslugi h3 {
+    color: #D52B1E;
+    padding-top: 10px;
+    font-size: 25px; }
+  .uslugi img[src*=arrow] {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px; }
+  .uslugi .usluga {
+    height: 450px;
+    position: relative;
+    width: 270px;
+    border-right: 3px solid #D52B1E;
+    border-bottom: 3px solid #D52B1E; }
+  .uslugi .usl-1 {
+    margin-left: 150px; }
+  .uslugi .usl-2 {
+    margin-left: 50px; }
+  .uslugi .usl-3 {
+    margin-left: -50px; }
+
+.marketing .header-mrkt p {
+  font-size: 16px; }
+.marketing .header-mrkt b {
+  font-weight: bold; }
+.marketing section h2 {
+  text-align: center;
+  color: #D52B1E;
+  font-size: 25px;
+  padding-bottom: 30px; }
+.marketing section .uslugi-marketing {
+  position: relative;
+  width: 340px;
+  height: 450px;
+  border-right: 2px solid #D52B1E;
+  border-bottom: 2px solid #D52B1E;
+  margin: 0 auto; }
+  .marketing section .uslugi-marketing .wrapper {
+    margin-left: 30px; }
+  .marketing section .uslugi-marketing h3 {
+    margin-right: -20px;
+    color: #fff;
+    background: #D52B1E;
+    display: inline-block;
+    padding: 20px;
+    width: 358px;
+    height: 75px;
+    font-size: 20px; }
+  .marketing section .uslugi-marketing p {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    width: 250px; }
+  .marketing section .uslugi-marketing a {
+    font-size: 14px;
+    color: #D52B1E;
+    text-decoration: none;
+    font-weight: bold; }
+  .marketing section .uslugi-marketing span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px; }
+  .marketing section .uslugi-marketing .btn {
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 145px;
+    margin-bottom: 20px; }
+  .marketing section .uslugi-marketing i {
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 30px; }
+  .marketing section .uslugi-marketing b {
+    background: url(../../img/label.png) no-repeat center;
+    padding: 20px;
+    display: inline-block;
+    width: 180px; }
+  .marketing section .uslugi-marketing .triangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #B7121B;
+    border-right: 20px solid transparent;
+    position: absolute;
+    right: -20px; }
+.marketing .prices-blc .row {
+  width: 950px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+.marketing .prices-blc .price {
+  position: absolute;
+  bottom: 0; }
+.marketing .price-blc-2 .line-3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 2px;
+  background: #D52B1E; }
+.marketing .price-blc-2 h3 {
+  font-size: 25px;
+  color: #D52B1E;
+  padding-bottom: 20px; }
+.marketing .price-blc-2 li {
+  padding-bottom: 20px;
+  background: url(../../img/check-mark.png) no-repeat left top;
+  padding-left: 25px; }
+.marketing .price-question {
+  text-align: center; }
+  .marketing .price-question h4 {
+    font-size: 25px; }
+  .marketing .price-question a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+.svaz {
+  input: first-child;
+    input-margin-top: 60px; }
+  .svaz form {
+    padding-top: 20px; }
+  .svaz h3 {
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 40px; }
+  .svaz p {
+    width: 325px;
+    font-size: 15px;
+    line-height: 1.3em;
+    padding-bottom: 25px; }
+  .svaz .btn {
+    background: #000; }
+    .svaz .btn:hover {
+      color: #000;
+      background: #fff; }
+  .svaz input[type*=text] {
+    width: 97.5% !important; }
+  .svaz input, .svaz textarea {
+    resize: none;
+    border: 2px solid #D52B1E;
+    width: 100%;
+    padding: 5px; }
+  .svaz input {
+    margin-bottom: 10px; }
+  .svaz input[type=submit] {
+    background: #000;
+    color: #fff;
+    border: none;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px; }
+    .svaz input[type=submit]:hover {
+      color: #000;
+      background: #fff;
+      transition: background 0.2s; }
+
+.obr-svonok-header .wrapper {
+  text-align: center; }
+
+.obr-svonok-section {
+  text-align: center; }
+  .obr-svonok-section .wrapper {
+    max-width: 500px;
+    margin: 0 auto; }
+  .obr-svonok-section input {
+    border: 2px solid #D52B1E;
+    width: 100%;
+    padding: 5px; }
+  .obr-svonok-section input:first-child {
+    margin-top: 60px; }
+  .obr-svonok-section input {
+    margin-bottom: 10px; }
+  .obr-svonok-section input[type=submit] {
+    background: #000;
+    color: #fff;
+    border: none;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px; }
+    .obr-svonok-section input[type=submit]:hover {
+      color: #000;
+      background: #fff;
+      transition: background 0.2s; }
+
+.design-section .row {
+  width: 100% !important; }
+
+.reklamniy-kompanii-section .row {
+  width: 100% !important; }
+.reklamniy-kompanii-section .uslugi-marketing {
+  height: 700px !important; }
+.reklamniy-kompanii-section h4 {
+  color: #D52B1E;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.4em;
+  width: 300px; }
+.reklamniy-kompanii-section ul {
+  padding-top: 20px; }
+.reklamniy-kompanii-section li {
+  padding-bottom: 20px;
+  background: url(../../img/check-mark.png) no-repeat left top;
+  padding-left: 25px; }
+
+.kompleksnoe-obsl-section .uslugi-marketing {
+  height: 900px !important; }
+.kompleksnoe-obsl-section h4 {
+  color: #D52B1E;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.4em;
+  width: 300px; }
+.kompleksnoe-obsl-section ul {
+  padding-top: 20px; }
+.kompleksnoe-obsl-section li {
+  padding-bottom: 20px;
+  background: url(../../img/check-mark.png) no-repeat left top;
+  padding-left: 25px; }
+
+.internet-prodvizhenie-section .row {
+  width: 100% !important; }
+.internet-prodvizhenie-section .uslugi-marketing {
+  height: 515px !important; }
+.internet-prodvizhenie-section h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4em; }
+
+.oformlenie-section {
+  text-align: center; }
+  .oformlenie-section h3 {
+    font-weight: bold;
+    padding-bottom: 40px; }
+
+.klients-section {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .klients-section .row {
+    width: 845px;
+    margin: 0 auto; }
+  .klients-section .view {
+    text-align: center; }
+    .klients-section .view img {
+      display: inline-block; }
+    .klients-section .view a {
+      text-decoration: none;
+      color: #000; }
+      .klients-section .view a:hover {
+        color: #000; }
+  .klients-section .more {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .klients-section .more a {
+      display: inline-block;
+      text-decoration: underline;
+      color: #000;
+      font-size: 13px; }
+  .klients-section .show-more-1, .klients-section .show-more-2 {
+    display: none; }
+
+.porfolio-section .row {
+  width: 990px;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+  .porfolio-section .row:first-child {
+    padding-top: 20px; }
+
+.portfolio-page-section-1 .carousel {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 600px; }
+  .portfolio-page-section-1 .carousel .carousel-inner {
+    max-height: 600px; }
+
+.portfolio-page-section-2 .line-3 {
+  margin: 0 auto;
+  width: 90%;
+  height: 2px;
+  background: #D52B1E;
+  margin-top: 30px; }
+.portfolio-page-section-2 h3 {
+  color: #D52B1E;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+.portfolio-page-section-2 img {
+  max-width: 400px;
+  display: inline-block; }
+.portfolio-page-section-2 .warpper {
+  text-align: right; }
+.portfolio-page-section-2 .carousel {
+  text-align: center;
+  max-width: 400px; }
+  .portfolio-page-section-2 .carousel .carousel-inner {
+    max-height: 600px; }
+.portfolio-page-section-2 .col-sm-12 {
+  text-align: center;
+  padding-bottom: 20px; }
+  .portfolio-page-section-2 .col-sm-12 .line-3 {
+    margin-bottom: 20px; }
+  .portfolio-page-section-2 .col-sm-12 h3 {
+    padding-top: 0px; }
+  .portfolio-page-section-2 .col-sm-12 .carousel {
+    margin: 0 auto;
+    max-height: 652px;
+    max-width: 432px; }
+
+.oformlenie-1 {
+  margin-bottom: 20px; }
+  .oformlenie-1 .wrapper h2 {
+    font-size: 20px; }
+    .oformlenie-1 .wrapper h2 a {
+      color: #fff;
+      text-decoration: none; }
+
+.oformlenie-1-section h3 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-left: 20px; }
+
+.fizra-section h4 {
+  color: #D52B1E;
+  font-weight: bold;
+  margin-left: 15px;
+  padding-bottom: 20px; }
+.fizra-section .line-3 {
+  margin-top: 20px !important;
+  margin: 0 auto;
+  width: 90%;
+  height: 2px;
+  background: #D52B1E;
+  margin-bottom: 50px; }
+
+.reklamamobil-section {
+  margin-top: 50px; }
+  .reklamamobil-section p, .reklamamobil-section ul {
+    line-height: 1.3em;
+    font-size: 14px;
+    padding-bottom: 20px; }
+  .reklamamobil-section h3 {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 20px; }
+  .reklamamobil-section b {
+    font-weight: bold; }
+  .reklamamobil-section ul {
+    list-style-type: disc; }
+  .reklamamobil-section .zakaz-reklmobil {
+    text-align: center;
+    padding-bottom: 30px; }
+  .reklamamobil-section img[src*=trak] {
+    width: 100%;
+    padding-bottom: 30px; }
+  .reklamamobil-section .row {
+    padding-bottom: 20px; }
+  .reklamamobil-section .show-more-1, .reklamamobil-section .show-more-2 {
+    display: none; }
+  .reklamamobil-section .more {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .reklamamobil-section .more a {
+      display: inline-block;
+      text-decoration: underline;
+      color: #000;
+      font-size: 13px; }
+
+.inn-forum-section h5 {
+  color: #D52B1E;
+  font-weight: bold;
+  padding-bottom: 20px; }
+.inn-forum-section p {
+  display: inline-block;
+  line-height: 1.3em;
+  font-size: 14px;
+  padding-bottom: 20px; }
+  .inn-forum-section p span {
+    font-weight: bold; }
+.inn-forum-section .row-1, .inn-forum-section .row-2 {
+  text-align: center; }
+.inn-forum-section .line-3 {
+  width: 100%;
+  margin-bottom: 10px; }
+.inn-forum-section h3 {
+  margin-left: 15px; }
+.inn-forum-section img[alt*=line-1] {
+  max-width: 280px; }
+.inn-forum-section img[alt*=line-2-1], .inn-forum-section img[alt*=line-2-2] {
+  max-width: 400px; }
+.inn-forum-section img[alt*=line-3] {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

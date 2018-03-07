@@ -1,0 +1,250 @@
+/*==========  Desktop First Method  ========== */
+/* Large Devices, Wide Screens */
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@media only screen and (max-width: 1200px) {
+  /* */
+  nav .col-sm-12 {
+    margin: 0 auto;
+    text-align: center; }
+  nav .cntcts {
+    display: inline-block;
+    max-width: 400px;
+    text-align: left; }
+
+  .usluga {
+    margin: 0px !important; }
+
+  .uslugi .row {
+    margin-bottom: 0px !important; }
+  .uslugi .usl-1, .uslugi .usl-2, .uslugi .usl-3 {
+    margin: 0 auto !important;
+    margin-bottom: 20px !important; }
+
+  .marketing .prices-blc .row {
+    width: 100% !important;
+    margin-bottom: 0px !important; }
+  .marketing .uslugi-marketing {
+    margin-bottom: 20px !important; }
+
+  .klients-section .row {
+    width: 100% !important; }
+  .klients-section img {
+    width: 200px; }
+
+  .porfolio-section .row {
+    width: 100% !important;
+    text-align: center; }
+  .porfolio-section img {
+    width: 200px; }
+
+  .portfolio-page-section-2 {
+    text-align: center !important; }
+    .portfolio-page-section-2 .warpper {
+      text-align: center !important; }
+
+  .oformlenie-1-section h3 {
+    font-size: 13px; }
+  .oformlenie-1-section img {
+    width: 200px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .porfolio-section .row {
+    padding-bottom: 0px !important; }
+
+  /*Disable Animation on Mobile Devices */
+  .animated {
+    /*CSS transitions */
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms */
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations */
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+  h1 {
+    font-size: 22px !important; }
+
+  img[src*=logo] {
+    width: 100%; }
+
+  .uslugi-marketing {
+    width: 240px !important;
+    height: 480px !important; }
+    .uslugi-marketing p {
+      width: 100% !important; }
+    .uslugi-marketing h3 {
+      width: 258px !important;
+      font-size: 13px !important; }
+    .uslugi-marketing h4 {
+      font-size: 13px !important;
+      width: 100% !important; }
+    .uslugi-marketing ul {
+      font-size: 13px !important; }
+    .uslugi-marketing .wrapper {
+      margin-left: 0px !important; }
+    .uslugi-marketing .btn {
+      margin-left: 0px !important; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */ }
+/*==========  Mobile First Method  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */ }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */ }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */ }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */ }
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif, FontAwesome; }
+
+.btn {
+  color: #fff;
+  background: #D52B1E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .btn:hover {
+    text-decoration: none;
+    background: #0F0302;
+    color: #fff;
+    transition: background 0.2s; }
+
+.waypoints-btn {
+  position: fixed;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+
+.waypoints-track {
+  position: fixed;
+  z-index: 3;
+  right: 0;
+  top: 0;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+
+.fa-bars, .fa-times {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 10px;
+  float: right;
+  cursor: pointer; }
+
+.fa-times {
+  padding-left: 11px; }
+
+nav {
+  background: #000; }
+  nav .mobile-mnu-blc {
+    position: relative; }
+    nav .mobile-mnu-blc ul {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      top: 70px;
+      width: 100%; }
+      nav .mobile-mnu-blc ul li {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #fff;
+        background: #000; }
+        nav .mobile-mnu-blc ul li a {
+          text-decoration: none;
+          color: #fff; }
+          nav .mobile-mnu-blc ul li a:hover {
+            transition: color 0.5s;
+            color: #D52B1E; }
+  nav .line {
+    width: 100%;
+    height: 2px;
+    background: #fff; }
+  nav img[src*=logo] {
+    padding-top: 45px; }
+  nav .menu {
+    padding-top: 65px; }
+    nav .menu a {
+      text-decoration: none;
+      color: #fff; }
+      nav .menu a:hover {
+        transition: color 0.5s;
+        color: #D52B1E; }
+    nav .menu li {
+      display: inline;
+      font-size: 17px; }
+      nav .menu li:first-child, nav .menu li:nth-child(2n) {
+        padding-right: 55px; }
+  nav .cntcts {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    line-height: 1.5em; }
+    nav .cntcts li:first-child {
+      background: url(../../img/phone.png) no-repeat left top; }
+    nav .cntcts li:nth-child(2n) {
+      background: url(../../img/geo.png) no-repeat left top; }
+    nav .cntcts a {
+      text-decoration: none;
+      color: #fff; }
+    nav .cntcts li {
+      padding-left: 25px; }
+
+footer {
+  background: #000; }
+  footer h4 {
+    font-size: 25px;
+    padding-top: 46px;
+    padding-bottom: 30px; }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 25px;
+    display: inline-block; }
+  footer .map {
+    padding-top: 45px;
+    padding-bottom: 75px;
+    max-width: 690px;
+    height: 320px; }
+  footer .line-2 {
+    width: 100%;
+    height: 2px;
+    background: #D52B1E; }
+  footer .cntct-2 {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 14px; }
+    footer .cntct-2 div {
+      text-align: center; }
+
+/*# sourceMappingURL=header.css.map */

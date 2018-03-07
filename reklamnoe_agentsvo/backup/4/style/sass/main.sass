@@ -1,0 +1,357 @@
+﻿@import 'bourbon/bourbon'
+@import '_vars'
+
+header
+	.wrapper
+		background: $accent-color
+		color: #fff
+		h1
+			font-weight: bold
+			font-size: 42px
+			padding-top: 25px
+			padding-bottom: 15px
+		h2
+			font-weight: bold
+			padding-bottom: 30px
+	p
+		font-size: 15px
+		display: inline-block
+		padding-top: 35px
+		padding-bottom: 35px
+	.line-3
+		margin: 0 auto
+		width: 90%
+		height: 2px
+		background: $accent-color
+		margin-bottom: 50px
+.uslugi
+	position: relative
+	.row
+		margin-bottom: 50px
+	p
+		width: 260px
+	h3
+		color: $accent-color
+		padding-top: 10px
+		font-size: 25px
+	img[src*=arrow]
+		position: absolute
+		bottom: 0
+		right: 0
+		padding: 10px
+	.usluga
+		height: 450px
+		position: relative
+		width: 270px
+		border-right: 3px solid $accent-color
+		border-bottom: 3px solid $accent-color
+	.usl-1
+		margin-left: 150px
+	.usl-2
+		margin-left: 50px
+	.usl-3
+		margin-left: -50px
+
+
+// ===================marketing=================
+.marketing
+	.header-mrkt
+		p
+			font-size: 16px
+		b
+			font-weight: bold
+	section
+		h2
+			text-align: center
+			color: $accent-color
+			font-size: 25px
+			padding-bottom: 30px
+		.uslugi-marketing
+			position: relative
+			width: 340px
+			height: 450px
+			border-right: 2px solid $accent-color
+			border-bottom: 2px solid $accent-color
+			margin: 0 auto
+			.wrapper
+				margin-left: 30px
+			h3
+				margin-right: -20px
+				color: #fff
+				background: $accent-color
+				display: inline-block
+				padding: 20px
+				width: 358px
+				height: 75px
+				font-size: 20px
+			p
+				display: inline-block
+				padding-top: 20px
+				padding-bottom: 30px
+				font-size: 14px
+				width: 250px
+			a
+				font-size: 14px
+				color: $accent-color
+				text-decoration: none
+				font-weight: bold
+			span
+				display: block
+				font-size: 14px
+				font-weight: bold
+				padding-top: 20px
+			.btn
+				display: inline-block
+				color: #fff
+				margin-top: 30px
+				margin-left: 145px
+				margin-bottom: 20px
+			i
+				font-size: 20px
+				display: inline-block
+				padding-top: 30px
+			b
+				background: url(../../img/label.png) no-repeat center
+				padding: 20px
+				display: inline-block
+				width: 180px
+			.triangle
+				width: 0
+				height: 0
+				border-top: 20px solid #B7121B
+				border-right: 20px solid transparent
+				position: absolute
+				right: -20px
+	.prices-blc
+		.row
+			width: 950px
+			margin: 0 auto
+			margin-bottom: 30px
+		.price
+			position: absolute
+			bottom: 0
+	.price-blc-2
+		.line-3
+			margin-top: 30px
+			margin-bottom: 20px
+			width: 100%
+			height: 2px
+			background: $accent-color
+		h3
+			font-size: 25px
+			color: $accent-color
+			padding-bottom: 20px
+		li
+			padding-bottom: 20px
+			background: url(../../img/check-mark.png) no-repeat left top
+			padding-left: 25px
+	.price-question
+		text-align: center
+		h4
+			font-size: 25px
+		a
+			display: inline-block
+			margin-top: 20px
+			margin-bottom: 20px
+// ============================= svaz ===============
+.svaz
+	h3
+		font-size: 25px
+		padding-top: 60px
+		padding-bottom: 40px
+	p
+		width: 325px
+		font-size: 15px
+		line-height: 1.3em
+		padding-bottom: 25px
+	.btn
+		background: #000
+		&:hover
+			color: #000
+			background: #fff
+	input, textarea
+		border: 2px solid $accent-color
+		width: 100%
+		padding: 5px
+	input: first-child
+		margin-top: 60px
+	input
+		margin-bottom: 10px
+	input[type=submit]
+		background: #000
+		color: #fff
+		border: none
+		float: right
+		width: 100px
+		padding: 10px
+		margin-top: 10px
+		&:hover
+			color: #000
+			background: #fff
+			transition: background .2s
+// =================== obr-svonok ===============
+.obr-svonok-header
+	.wrapper
+		text-align: center
+.obr-svonok-section
+	text-align: center
+	.wrapper
+		max-width: 500px
+		margin: 0 auto
+	input
+		border: 2px solid $accent-color
+		width: 100%
+		padding: 5px
+	input:first-child
+		margin-top: 60px
+	input
+		margin-bottom: 10px
+	input[type=submit]
+		background: #000
+		color: #fff
+		border: none
+		float: right
+		width: 100px
+		padding: 10px
+		margin-top: 10px
+		&:hover
+			color: #000
+			background: #fff
+			transition: background .2s
+//===================== design ===============
+.design-section
+	.row
+		width: 100% !important
+// ======================= reklamniy-kompanii ===========
+.reklamniy-kompanii-section
+	.row
+		width: 100% !important
+	.uslugi-marketing
+		height: 700px !important
+	h4
+		color: $accent-color
+		font-weight: bold
+		padding-top: 20px
+		padding-bottom: 20px
+		line-height: 1.4em
+		width: 300px
+	ul
+		padding-top: 20px
+	li
+		padding-bottom: 20px
+		background: url(../../img/check-mark.png) no-repeat left top
+		padding-left: 25px
+// ==================== kompleksnoe-obsl-section =============
+.kompleksnoe-obsl-section
+	.uslugi-marketing
+		height: 900px !important
+	h4
+		color: $accent-color
+		font-weight: bold
+		padding-top: 20px
+		padding-bottom: 20px
+		line-height: 1.4em
+		width: 300px
+	ul
+		padding-top: 20px
+	li
+		padding-bottom: 20px
+		background: url(../../img/check-mark.png) no-repeat left top
+		padding-left: 25px
+// ========================= internet-prodvizhenie-section ============
+.internet-prodvizhenie-section
+	.row
+		width: 100% !important
+	.uslugi-marketing
+		height: 500px !important
+	h4
+		text-align: center
+		font-weight: bold
+		font-size: 14px
+		line-height: 1.4em
+// ============================== oformlenie-section ==============
+.oformlenie-section
+	text-align: center
+	h3
+		font-weight: bold
+		padding-bottom: 40px
+	 
+// ======================= klients-section ============
+.klients-section
+	.row
+		width: 845px
+		margin: 0 auto
+	.view
+		text-align: center
+		img
+			display: inline-block
+		a
+			text-decoration: none
+			color: #000
+			&:hover
+				color: #000
+	.more
+		text-align: center
+		padding-top: 20px
+		padding-bottom: 20px
+		a
+			
+			display: inline-block
+			text-decoration: underline
+			color: #000
+			font-size: 13px
+	.show-more-1, .show-more-2
+		display: none
+// ============== porfolio-section ============
+.porfolio-section
+	.row	
+		width: 990px
+		margin: 0 auto
+		padding-bottom: 20px
+		&:first-child
+			padding-top: 20px
+// +++++++++++++++++++++++++++++
+
+.portfolio-page-section-1
+	.carousel
+		margin: 0 auto
+		text-align: center
+		margin-top: 50px
+		margin-bottom: 50px
+		max-width: 600px
+		.carousel-inner
+			max-height: 600px
+.portfolio-page-section-2
+	.line-3
+		margin: 0 auto
+		width: 90%
+		height: 2px
+		background: $accent-color
+		margin-top: 30px
+	h3
+		color: $accent-color
+		font-size: 25px
+		padding-top: 30px
+		padding-bottom: 30px
+	img
+		max-width: 400px
+		display: inline-block
+	.warpper
+		text-align: right
+	.carousel
+		text-align: center
+		max-width: 400px
+		.carousel-inner
+			max-height: 600px
+	.col-sm-12
+		text-align: center
+		padding-bottom: 20px
+		.line-3
+			margin-bottom: 20px
+		h3
+			padding-top: 0px
+		.carousel
+			margin: 0 auto
+			max-height: 652px
+			max-width: 432px
+
